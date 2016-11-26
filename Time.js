@@ -22,7 +22,7 @@ function time(id)
         {
                 s = "0"+s;
         }
-        result = +h+':'+m+';
+        result = h+':'+m;
         document.getElementById(id).innerHTML = result;
         setTimeout('date_time("'+id+'");','1000');
         return true;
