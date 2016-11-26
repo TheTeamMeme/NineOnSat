@@ -1,4 +1,4 @@
-function day(id)
+function time(id)
 {
         date = new Date;
         year = date.getFullYear();
@@ -22,7 +22,7 @@ function day(id)
         {
                 s = "0"+s;
         }
-        result = days[day];
+        result = h+':'+m;
         document.getElementById(id).innerHTML = result;
         setTimeout('date_time("'+id+'");','1000');
         return true;
