@@ -1,5 +1,4 @@
-function day(id)
-{
+function day(id) {
         date = new Date;
         year = date.getFullYear();
         month = date.getMonth();
